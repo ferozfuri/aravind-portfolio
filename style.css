@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700;800&display=swap');
+*{
+    font-family: Poppins;
+}
+body{
+    background-color: #f2f4f9 !important;
+}
+.primary-color{
+    color: #f05d7b;
+}
+.secondary-color{
+    color: #071e48;
+}
+.bg-dark{
+    background-color: #000000;
+    color: #ffffff;
+}
+.title{
+    margin-top: 200px;
+    margin-left: 60px;
+}
+button{
+    cursor: pointer;
+}
+button:focus{
+    outline: none !important;
+}
+.cover-img{
+    width: 100%;
+    margin-top: 80px;
+}
+.cv-button{
+    background-color: #f05d7b;
+    color: #ffffff;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+/* skills */
+.skill-text{
+    display: inline-block;
+}
+.skills-img{
+    display: inline-block;
+    width: 50px;
+    height: auto;
+}
+.skills{
+    margin-top: 30px;
+    background-color: #ffffff;
+    padding-top: 80px;
+}
+.skill-list{
+    padding-left: 100px !important;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.experience-list{
+    padding: 10px;
+}
+.experience-inside{
+    background-color: #ffffff;
+    padding: 20px;
+}
+/* projects */
+.project-body{
+    background-color: #ffffff;
+}
+/* contact-section */
+.contact-me{
+    margin-top: 50px;
+}
+/* footer */
+.footer-container{
+    margin-top: 50px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.footer-about>tbody>tr>td{
+    padding-right: 50px;
+}
+.social-media-links{
+    list-style-type: none;
+}
+.social-media-links>li{
+    display: inline-block;
+}
+.social-media-links>li>i{
+    padding: 10px 20px 0px 0px; 
+    font-size: 25px;
+}
