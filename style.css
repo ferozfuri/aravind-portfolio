@@ -48,15 +48,16 @@ button:focus{
 .skills{
     margin-top: 30px;
     background-color: #ffffff;
-    padding-top: 80px;
+    padding-top: 50px;
 }
 .skill-list{
     padding-left: 100px !important;
     padding-top: 30px;
     padding-bottom: 50px;
 }
+/* experience */
 .experience-list{
-    padding: 10px;
+    padding-top: 30px;
 }
 .experience-inside{
     background-color: #ffffff;
@@ -64,23 +65,41 @@ button:focus{
 }
 /* projects */
 .project-body{
+    margin-top: 30px;
     background-color: #ffffff;
+    padding: 50px 0px;
 }
 /* contact-section */
 .contact-me{
     margin-top: 50px;
 }
+.contact-container{
+    padding-top: 50px;
+}
+.contact-about{
+    padding-top: 50px;
+}
+.btn-submit{
+    background-color: #f05d7b;
+    color: #ffffff;
+    border: none;
+    margin-left: 15px;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
 /* footer */
 .footer-container{
     margin-top: 50px;
-    padding-top: 80px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-.footer-about>tbody>tr>td{
+.contact-about>tbody>tr>td{
     padding-right: 50px;
+    padding-top: 10px;
 }
 .social-media-links{
     list-style-type: none;
+    padding-left: 0px !important;
 }
 .social-media-links>li{
     display: inline-block;
