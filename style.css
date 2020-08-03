@@ -51,13 +51,14 @@ button:focus{
     padding-top: 50px;
 }
 .skill-list{
-    padding-left: 100px !important;
+    padding-left: 100px;
     padding-top: 30px;
     padding-bottom: 50px;
 }
 /* experience */
 .experience-list{
     padding-top: 30px;
+    padding-left: 3rem;
 }
 .experience-inside{
     background-color: #ffffff;
@@ -68,6 +69,10 @@ button:focus{
     margin-top: 30px;
     background-color: #ffffff;
     padding: 50px 0px;
+}
+.project-list{
+    padding-top: 2rem;
+    padding-left: 3rem;
 }
 /* contact-section */
 .contact-me{
@@ -107,4 +112,25 @@ button:focus{
 .social-media-links>li>i{
     padding: 10px 20px 0px 0px; 
     font-size: 25px;
+}
+@media only screen and (max-width : 768px){
+    .title{
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .skill-list{
+        padding: 20px 0px 20px 35px !important;
+    }
+    .project-body{
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    .project-list{
+        padding-left: 2rem;
+        padding-top: 1rem;
+    }
+    .experience-list{
+        padding-left: 2rem;
+        padding-top: 1rem;
+    }
 }
