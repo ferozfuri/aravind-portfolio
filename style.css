@@ -9,15 +9,14 @@ body{
     color: #f05d7b;
 }
 .secondary-color{
-    color: #071e48;
+    color: #071e48 !important;
 }
 .bg-dark{
     background-color: #000000;
     color: #ffffff;
 }
 .title{
-    margin-top: 200px;
-    margin-left: 60px;
+    margin-top: 150px;
 }
 button{
     cursor: pointer;
@@ -27,7 +26,7 @@ button:focus{
 }
 .cover-img{
     width: 100%;
-    margin-top: 80px;
+    margin-top: 30px;
 }
 .cv-button{
     background-color: #f05d7b;
@@ -51,7 +50,7 @@ button:focus{
     padding-top: 50px;
 }
 .skill-list{
-    padding-left: 100px;
+    padding-left: 100px !important;
     padding-top: 30px;
     padding-bottom: 50px;
 }
@@ -114,20 +113,37 @@ button:focus{
     font-size: 25px;
 }
 @media only screen and (max-width : 768px){
+    .cover-img{
+        margin-top: 20px;
+    }
+    .scroll{
+        padding-top: 20px;
+        padding-left: 10px;
+    }
     .title{
         margin-top: 50px;
         margin-left: 20px;
+    }
+    .skills{
+        margin-top: 10px;
+        padding-top: 15px;
     }
     .skill-list{
         padding: 20px 0px 20px 35px !important;
     }
     .project-body{
-        margin-top: 20px;
-        padding-top: 20px;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+    .contact-about>tbody>tr>td{
+        padding-right: 30px;
     }
     .project-list{
         padding-left: 2rem;
         padding-top: 1rem;
+    }
+    .experience{
+        margin-top: 15px;
     }
     .experience-list{
         padding-left: 2rem;
