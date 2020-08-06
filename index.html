@@ -7,37 +7,41 @@
     <title>Aravind Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/fa0641d298.js"></script>
     <link rel="icon" href="Assets/Aravind-portfolio.png" type="image/gif" sizes="16x16">
-    <script src="script/wow.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <script>
          new WOW().init();
+         console.log("wow()");
     </script>
 
 </head>
 <body> 
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top" id="navbar">
+    <nav class="navbar navbar-expand-md bg-light navbar-light navbar-right" id="navbar">
         <div class="container">
             <a class="navbar-brand" href="#">Aravind Ponnala</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav text-right">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#experience">Experience</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>    
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
                 </ul>
             </div>  
         </div>
@@ -63,9 +67,16 @@
                 <img src="./Assets/cover-img.jpg" alt="aravind" class="cover-img">
             </div>
         </div>
-        <div class="scroll">Know more about me &#8595;</div>
+        <div class="scroll animate__animated animate__bounce animate__slow animate__infinite" id="scroll">
+            <a href="#skills">
+                Know more about me &nbsp; <i class="fa fa-arrow-down"></i>
+            </a>
+        </div>
     </header>
-    <div class="container">
+
+    <!-- skills -->
+
+    <div class="container" id="skills">
         <div class="skills">
             <h1 class="font-weight-bold text-center">Skills</h1>
 
@@ -89,7 +100,7 @@
         </div>
     </div>
     <!-- experience -->
-    <div class="container">
+    <div class="container" id="experience">
         <div class="experience mt-md-5 pb-3">
             <h1 class="font-weight-bold text-center">Experience</h1>
             <div class="experience-list">
@@ -114,7 +125,7 @@
         </div>
     </div>
     <!-- projects -->
-    <section class="projects">
+    <section class="projects" id="projects">
         <div class="container">
             <div class="project-body">
                 <h1 class="font-weight-bold text-center">Projects</h1>
@@ -144,7 +155,7 @@
         </div>
     </section>
     <!-- contact section -->
-    <section class="contact-me">
+    <section class="contact-me" id="contact">
         <div class="container">
             <h1 class="font-weight-bold text-center">Contact Me</h1>
             <div class="row contact-container">

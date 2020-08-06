@@ -1,18 +1,3 @@
-$(document).ready(function(){
-    $("button").click(function(){
-      alert($("div").scrollTop() + " px");
-    });
-  });
-
-// $(document).ready(function(){
-//     var navbar = $("#navbar");
-//     console.log("kaeehg0");
-// })
-
-
-
-
-
 function postToGoogle() {
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
@@ -28,3 +13,4 @@ function postToGoogle() {
     });
     return false;
 }
+
